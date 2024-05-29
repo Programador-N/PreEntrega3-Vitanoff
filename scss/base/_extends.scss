@@ -1,0 +1,21 @@
+
+/*Extend del componente button*/
+
+.btn-detalles {
+  @extend .btn;
+  background-color: #00ff0d;
+  color: #000000
+}
+
+.btn-comprar {
+  @extend .btn;
+  background-color: #c00000bd;
+  color: #009e3d;
+}
+
+.box-tipo2 {
+  @extend .box;
+  size: 20px;
+  border-radius: 20
+;
+}

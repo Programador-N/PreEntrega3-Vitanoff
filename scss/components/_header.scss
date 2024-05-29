@@ -1,0 +1,15 @@
+// _header.scss
+header nav ul {
+    background-color: black;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    text-align: center;
+    padding: 10px;
+    margin: unset;
+    text-decoration: none;
+    list-style-type: none;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+  }
+  

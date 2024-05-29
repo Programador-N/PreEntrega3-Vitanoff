@@ -1,0 +1,50 @@
+// _footer.scss
+.footer-container {
+    position: relative;
+    background-image: url("../img/footer-bg-2.jpg");
+    background-size: cover;
+  
+    .btn-white {
+      background-color: #fff;
+      color: #333;
+    }
+  
+    .btn-black {
+      background-color: #000000;
+      color: #fff;
+  
+      &:hover {
+        background-color: gold;
+        color: #fff;
+      }
+    }
+  
+    .description {
+      margin-top: 20px;
+      color: #555;
+      font-size: 14px;
+      opacity: 100%;
+      transition: opacity 0.3s ease;
+    }
+  
+    .box {
+      width: 300px;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin: 50px auto;
+      text-align: center;
+  
+      img {
+        width: 100%;
+        height: auto;
+        transition: transform 0.5s ease;
+  
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+  

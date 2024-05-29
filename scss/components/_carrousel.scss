@@ -1,0 +1,38 @@
+// _carrousel.scss
+#carouselExampleIndicators {
+  margin-top: 20px;
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 5%;
+
+    &:hover {
+      color: rgb(255, 0, 0);
+    }
+  }
+}
+
+
+
+.overlay-text {
+  max-width: 80%;
+  height: auto;
+}
+
+.image-container img {
+  max-width: 80%;
+  height: auto;
+}
+
+#carouselExampleIndicators {
+  margin-top: 20px;
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 5%;
+
+    &:hover {
+      color: rgb(255, 0, 0);
+    }
+  }
+}
