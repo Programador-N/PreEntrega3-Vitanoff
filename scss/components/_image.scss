@@ -91,3 +91,66 @@
     }
   }
   
+
+  .section-2 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+  }
+  
+  
+  .grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .grid-item:hover img {
+    transform: scale(1.1);
+  }
+  .grid-item img {
+    width: 100%;
+    height: 300%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    transition: transform 0.5s ease;
+  }
+  
+  .grid-item p {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+
+
+
+
+
+
+
+
+
+
+  
+.portadamotogp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* Ocupa todo el ancho horizontal disponible */
+  height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción de aspecto */
+  max-width: 100%; /* Ajusta el tamaño máximo de la imagen al contenedor */
+  max-height: 100%; /* Ajusta el tamaño máximo de la imagen al contenedor */
+  overflow: hidden; /* Oculta cualquier parte de la imagen que se desborde del contenedor */
+}
+
+.portadamotogp img {
+  width: 100%; /* Ocupa todo el ancho del contenedor padre */
+  height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción de aspecto */
+}
+
+
+    
